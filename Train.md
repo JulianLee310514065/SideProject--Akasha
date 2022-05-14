@@ -20,8 +20,8 @@ dataloader 可以批量的讀取資料，自動做成一包包，且為generator
 build a amazion model
 
 ###  7. Define the loss function and optimizer (and also lr_schedule)⭐
-loss: 評斷model好壞
-optimizer : 優化模型，Learning Rate超級重要⭐⭐
+loss: 評斷model好壞 \
+optimizer : 優化模型，Learning Rate超級重要⭐⭐ \
 lr_schedule : 讓lr有規律的上下移動
 
 ###  8. Train
