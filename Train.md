@@ -31,4 +31,7 @@ lr_schedule : 讓lr有規律的上下移動
 `model.val`，用for 去val，若train時候有resize，val時必須先resize成相同大小，predict完再resize回來 \
 可使用 monai `monai.inferers.sliding_window_inference`
 
-
+---
+### 放張人權圖
+不要問為啥名字不是我的，因為我丟我的都不拉
+![擷取](https://user-images.githubusercontent.com/101493861/168469320-f120f290-3af8-4418-adaf-ab538320f6f1.JPG)
