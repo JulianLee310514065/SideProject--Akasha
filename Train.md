@@ -33,5 +33,6 @@ lr_schedule : 讓lr有規律的上下移動
 
 ---
 ### 放張人權圖
-不要問為啥名字不是我的，因為我丟我的都不拉
-![擷取](https://user-images.githubusercontent.com/101493861/168469320-f120f290-3af8-4418-adaf-ab538320f6f1.JPG)
+
+![擷取](https://user-images.githubusercontent.com/101493861/168558981-fcf7f9d1-127c-4b45-8f14-303c8d0f0f97.JPG)
+
