@@ -31,6 +31,9 @@ lr_schedule : 讓lr有規律的上下移動
 `model.val`，用for 去val，若train時候有resize，val時必須先resize成相同大小，predict完再resize回來 \
 可使用 monai `monai.inferers.sliding_window_inference`
 
+### 10. ensemble
+將圖片 相加取平均，使用`np.round()`，使超過半數選的點為 1 ，反之為 0
+
 ---
 ### 放張人權圖
 
