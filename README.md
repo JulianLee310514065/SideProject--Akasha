@@ -3,7 +3,7 @@
 ---
 ### 待完成 -- todo list
 
-1. 肺腺癌切割比賽過程分享 ➡ **ing**
+1. 肺腺癌切割比賽過程分享(非上傳) ➡ **ing**
 2. OCT use resnet18 in keras, torch
 3. OCT use swin transform in torch
 4. 杰勳data in CNN1D
