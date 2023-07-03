@@ -1,4 +1,4 @@
-# Akasha_Project
+# 大新聞計畫(Akasha)
 
 使用爬蟲、Telegram、SQL與GUI建立一個新聞網
 
