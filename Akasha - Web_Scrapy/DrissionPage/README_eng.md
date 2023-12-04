@@ -5,7 +5,7 @@
 # ✅️️Install
   > Python 3.9.12 (anaconda) + VSCode
 
-### 📌 Installation or Upgrade
+### 📌 Install or Upgrade
 ```py
   # Install
   pip install DrissionPage
@@ -17,7 +17,7 @@
 
 ### 📌 There are three ways to open the browser: `WebPage`, `ChromiumPage`, and `SessionPage`. However, I have only used `ChromiumPage`.
 
-  Since I regularly use Selenium, I haven't encountered issues with the no find `chrome.exe` or difficulties in opening web pages. If you face difficulties when opening a webpage, feel free to ask me.
+  Since I typically use Selenium, I haven't encountered issues with the no exist of `chrome.exe` or problems in opening web pages. If you face problems when opening a webpage, feel free to ask me.
     
   ```python
     from DrissionPage import ChromiumPage
@@ -28,7 +28,7 @@
     
   *  timeout
   
-      Set the timeout retry time. The page will be retried if there is no response within the specified time. There are two ways to set the timeout:
+      Set the retry time in event of timeout. The page will be retried if there is no response within the specified time. There are two ways to set the timeout:
       ```python    
         # 1.Create a page with a specific timeout
         page = ChromiumPage(timeout=5)        
@@ -38,7 +38,7 @@
 
   * Set Loading Strategy
   
-      By setting the set.load_strategy property of the ChromiumPage object, you can set the timing to stop loading the page. During page loading, it will stop when the timeout is reached or the set state is reached, effectively saving scraping time. There are three modes:
+      By setting the `set.load_strategy property of the `ChromiumPage` object, you can set the time for when the page stops loading. During page is loading, it will stop when the timeout is reached or the set state is reached, effectively saving scraping time. There are three modes:
       * `page.set.load_strategy.normal()`: Normal mode, waits for the page to load completely.
 
       * `page.set.load_strategy.eager()`: Stops loading after the DOM is loaded, without loading images or animations, saving time.
@@ -52,7 +52,7 @@
         page.set.load_strategy.eager()
       ```
 
-  * If you want to prevent being blocked due to frequent crawling, you can use a proxy.
+  * To prevent being blocked due to frequent crawling, use a proxy.
 
       ```py
         co = ChromiumOptions()
@@ -71,7 +71,7 @@
       ```
 
 
-### 📌 Retrieve Webpage Information, Obtaining webpage information is similar to Selenium, and it is also done using `get()`
+### 📌 Retrieve webpage information is similar to Selenium, and it is also done using `get()`
 
 ```py
   page.get(YOUR_URL)
@@ -79,7 +79,7 @@
 
 # ✅️Locating Elements, most methods are documented [here](http://g1879.gitee.io/drissionpagedocs/ChromiumPage/find_elements/)
 
-### 📌 To find a single element, you can use `page.ele()`, and it is recommended to use `xpath`, similar to `find_element()` in Selenium. 
+### 📌 Use `page.ele()` to find a single element, and it is recommended to use `xpath`, similar to `find_element()` in Selenium. 
 
 ```python
     from DrissionPage import ChromiumPage
@@ -90,7 +90,7 @@
     ele_class = page.ele('xpath://html/body/div[3]/main/div/div[3]/article')    
 ```
 
-### 📌 To find multiple elements, you can use `page.eles()`, similar to `find_elements()` in Selenium.
+### 📌 Use `page.eles()` to find multiple elements, similar to `find_elements()` in Selenium.
    
 ```python
     from DrissionPage import ChromiumPage
@@ -102,7 +102,7 @@
     print(p_eles[0].text)      
 ```
 
-### 📌 Once an element is found, you can convert it to HTML and then use BeautifulSoup to find child elements.
+### 📌 Once an element is found, convert it to HTML, and then use BeautifulSoup to find child elements.
 
 ```py
     elementSoup = BeautifulSoup(page_eles.html, 'html.parser')
