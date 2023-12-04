@@ -1,3 +1,7 @@
+|[中文版](https://github.com/JulianLee310514065/Akasha_Project/edit/main/Akasha%20-%20Web_Scrapy/DrissionPage/README.md)|[English version](https://github.com/JulianLee310514065/Akasha_Project/blob/main/Akasha%20-%20Web_Scrapy/DrissionPage/README_eng.md)|
+-|-|
+
+---
 # ✅️️Install
   > Python 3.9.12 (anaconda) + VSCode
 
