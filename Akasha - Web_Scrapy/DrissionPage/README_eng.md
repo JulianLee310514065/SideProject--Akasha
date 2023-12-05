@@ -38,7 +38,7 @@
 
   * Set Loading Strategy
   
-      By setting the `set.load_strategy property of the `ChromiumPage` object, you can set the time for when the page stops loading. During page is loading, it will stop when the timeout is reached or the set state is reached, effectively saving scraping time. There are three modes:
+      By setting the `set.load_strategy` property of the `ChromiumPage` object, you can set the time for when the page stops loading. During page is loading, it will stop when the timeout is reached or the set state is reached, effectively saving scraping time. There are three modes:
       * `page.set.load_strategy.normal()`: Normal mode, waits for the page to load completely.
 
       * `page.set.load_strategy.eager()`: Stops loading after the DOM is loaded, without loading images or animations, saving time.
