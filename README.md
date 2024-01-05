@@ -1,5 +1,6 @@
-# 大新聞計畫(Akasha)
+# Akasha(大新聞計畫)
 
+### 爬蟲
 使用爬蟲、Telegram、SQL與GUI建立一個新聞網
 
 
