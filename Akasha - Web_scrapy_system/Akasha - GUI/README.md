@@ -37,4 +37,17 @@ b.區塊為符合所以選取的tag之新聞
 ![image](https://github.com/JulianLee310514065/SideProject--Akasha/assets/101493861/96618c5c-87c6-483a-a944-b7729b38b385)
 
 ## 設置與新聞頻率
+a. 可以看新聞頻率，防止網站突然掛掉
+
+b. 增減tag
+
+c. 更改字體大小跟字形
+![image](https://github.com/JulianLee310514065/SideProject--Akasha/assets/101493861/40aad517-830a-41c1-9076-de0c63fdfcd5)
+
+## 新聞編輯區
+a. 有三個方框可以編輯，標題、內容與自己的意見
+
+b. 增減tag，提供新聞分類用
+
+![image](https://github.com/JulianLee310514065/SideProject--Akasha/assets/101493861/6109cec0-0d5d-4454-90d9-0f8eb315ffb3)
 
