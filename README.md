@@ -17,6 +17,5 @@
 
 
 # Repocitry Dir
-1. Web_Scrapy 使用requests與selenium去獲取網站資訊
-2. MySQL 結合DB可以將爬到的資料作儲存
-3. GUI 搭配GUI以做到新聞編輯、我的最愛、標籤或是搜尋等功能
+* **[Akasha - Web_scrapy_system](https://github.com/JulianLee310514065/SideProject--Akasha/tree/main/Akasha%20-%20Web_scrapy_system)**: 為上面提到的**爬蟲系統**，資料夾內對爬蟲系統有詳細的介紹
+* **[Akasha - Money_flow](https://github.com/JulianLee310514065/SideProject--Akasha/tree/main/Akasha%20-%20Money_flow_system/Akasha%20-%20Money_flow)**: 為上面提到的**資金流與市場動向**，裏頭也有詳細的介紹可以閱讀
