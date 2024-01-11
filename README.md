@@ -1,5 +1,8 @@
 # Akasha(大新聞計畫)
 ### 契機
+(還沒寫)
+![image](https://github.com/JulianLee310514065/SideProject--Akasha/assets/101493861/f071ae08-7367-4bc3-a0df-df953b1807e3)
+
 
 ### 爬蟲系統
 * **爬蟲** : 使用爬蟲程式爬取美國、中國、台灣、韓國約40~50個網站，並使用Google翻譯API將外語翻成中文。
