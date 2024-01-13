@@ -11,13 +11,34 @@
 ## request刮取靜態網站 (request.get)
 request的優點是速度快，刮下來為HTML，可以使用BeautifulSoup來進行資料的處理及查找。**下圖為request的範例程式:**
 
-![image](https://github.com/JulianLee310514065/SideProject--Akasha/assets/101493861/212d9400-10cc-4a6d-af17-a5c6af4dee94)
+```python3
+url = 'YOUR_URL'
+head = {
+'cookie':xxxx,
+'user-agent': xxxxx
+}
+page = requests.get(url, headers = head, timeout= 5, proxies={"http":'TOUR_PROXY', "https":'YOUR_PROXY'})
+```
 
 
 ## selenium刮取動態網站 
 selenium的速度很慢，但是卻可以做到很多request做不到的功能，如點擊某按鈕、等待動態網頁加載無限下拉等功能，**下圖為selenium的範例程式:**
 
-![image](https://github.com/JulianLee310514065/SideProject--Akasha/assets/101493861/544f9895-5364-4093-a8d4-82847d4bcf28)
+```python3
+opts = Options()
+'''
+Add yout chrome option here
+'''
+browser = webdriver.Chrome(options= opts)
+browser.get('YOUR_URL')
+
+page = WebDriverWait(browser,30).until(lambda driver:driver.find_element(By.XPATH, "YOUR_XPATH")) #盡量使用xpath
+elementHTML = page.get_attribute('outerHTML')
+elementSoup = BeautifulSoup(elementHTML,'html.parser')
+
+find_example = elementSoup.find_all('li', class_ = 'text red') #根據自己的需求使用`find_all`
+```
+
 
 
 ## DrissionPage繞過cloudflare
