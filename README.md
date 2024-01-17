@@ -1,7 +1,9 @@
 # Akasha(大新聞計畫)
 ### 介紹
 姻緣際會下遇到了志同道合的朋友，偶然踏上了科技金融的道路。下圖為專案藍圖，分成兩個部分，爬蟲系統及資金流與市場動向，爬蟲系統包含爬取新聞、存取新聞、分析新聞與推送新聞，資金流與市場動向為市場資金流動之分析，分析大額資金的進出，才有機會早一步做出應對。
-![image](https://github.com/JulianLee310514065/SideProject--Akasha/assets/101493861/f071ae08-7367-4bc3-a0df-df953b1807e3)
+
+![image](https://github.com/JulianLee310514065/SideProject--Akasha/assets/101493861/54fe6479-8ce0-4af0-b652-e9b590ac53d3)
+
 
 
 ### 爬蟲系統
