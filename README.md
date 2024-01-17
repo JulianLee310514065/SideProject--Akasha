@@ -16,9 +16,21 @@
 * **資金流** : 亞洲市場尤其韓國跟台灣，機構的組成中雖然有國內投信或是自營商，但是最大的金主還是外資，基本上看好外資的走向或是其承受風險的成的程度就可以知曉現在市場的風氣，讓我們交易時可以有個判斷的依據。
 * **建模** : 一個國家除了個股現貨，衍生性產品通常也不少，如期貨、選擇權又或是權證，而且不同的機構類別會有不同的愛好，如台灣的話投信就不太玩選擇權，但自營商很愛玩，外資則根據市場現況決定玩現股還是有風險的期貨與選擇權等等，所以我們想透過建構加權模型找出各標的的機構綜合數值，來評斷現在市場的動量是往何處運行。
 * **可視化的升級** : 以往使用`matplotlib`或是`seaborn`作為可視化的工具，但是這兩個有個缺點，如果要改時間範圍，或是想換個標的看，又或是想單獨看外資，那必須回到程式中更改，這除了很麻煩也需要有程式基礎的人才比較好操作，因此透過Plotly與Dash來建立互動式的可視化界面，要改什麼要調什麼都可以在Dashboard上面運作，增加了可用性及方便性
-  
+
 
 
 # Repocitry Dir
+```
+┌ Akasha - Money_flow_system┌ Akasha - Money_flow
+│                           └ Readme.md
+│
+├ Akasha - Web_scrapy_system┌ Akasha - GUI
+│                           ├ Akasha - MySQL
+│                           ├ Akasha - Web_scrapy
+│                           └ Readme.md
+├ LICENSE
+└ README.md
+```
+### Link
 * **[Akasha - Web_scrapy_system](https://github.com/JulianLee310514065/SideProject--Akasha/tree/main/Akasha%20-%20Web_scrapy_system)**: 為上面提到的**爬蟲系統**，資料夾內對爬蟲系統有詳細的介紹
 * **[Akasha - Money_flow](https://github.com/JulianLee310514065/SideProject--Akasha/tree/main/Akasha%20-%20Money_flow_system/Akasha%20-%20Money_flow)**: 為上面提到的**資金流與市場動向**，裏頭也有詳細的介紹可以閱讀
